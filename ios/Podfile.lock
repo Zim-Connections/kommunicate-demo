@@ -77,17 +77,17 @@ PODS:
     - hermes-engine/Pre-built (= 0.71.4)
   - hermes-engine/Pre-built (0.71.4)
   - Kingfisher (7.6.2)
-  - Kommunicate (6.8.8):
-    - KommunicateChatUI-iOS-SDK (~> 1.0.6)
-  - KommunicateChatUI-iOS-SDK (1.0.6):
-    - KommunicateChatUI-iOS-SDK/Complete (= 1.0.6)
-  - KommunicateChatUI-iOS-SDK/Complete (1.0.6):
+  - Kommunicate (6.8.9):
+    - KommunicateChatUI-iOS-SDK (~> 1.0.7)
+  - KommunicateChatUI-iOS-SDK (1.0.7):
+    - KommunicateChatUI-iOS-SDK/Complete (= 1.0.7)
+  - KommunicateChatUI-iOS-SDK/Complete (1.0.7):
     - Kingfisher (~> 7.6.2)
     - KommunicateChatUI-iOS-SDK/RichMessageKit
     - KommunicateCore-iOS-SDK (~> 1.0.9)
     - SwipeCellKit (~> 2.7.1)
     - ZendeskChatProvidersSDK (~> 3.0.0)
-  - KommunicateChatUI-iOS-SDK/RichMessageKit (1.0.6)
+  - KommunicateChatUI-iOS-SDK/RichMessageKit (1.0.7)
   - KommunicateCore-iOS-SDK (1.0.9)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
@@ -427,7 +427,7 @@ PODS:
     - React-logger (= 0.71.4)
     - React-perflogger (= 0.71.4)
   - RNKommunicateChat (1.0.0):
-    - Kommunicate (~> 6.8.8)
+    - Kommunicate (~> 6.8.9)
     - React
   - SocketRocket (0.6.0)
   - SwipeCellKit (2.7.1)
@@ -614,8 +614,8 @@ SPEC CHECKSUMS:
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: a1f157c49ea579c28b0296bda8530e980c45bdb3
   Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
-  Kommunicate: 4e39277050799e3a160f264f19c3c8fa47403086
-  KommunicateChatUI-iOS-SDK: 34ad54f62a2eebc2e354aae4704b70a7b578ac8f
+  Kommunicate: caf90a7280a34b9f27f41c9765b593940502371f
+  KommunicateChatUI-iOS-SDK: ed6f0d4be4aecf6674464f450b53e22fd9579544
   KommunicateCore-iOS-SDK: 83d8bbdbf06be9bd7e20808752a260aa3c633695
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
@@ -646,7 +646,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: ad17efcfb2fa8f6bfd8ac0cf48d96668b8b28e0b
   React-runtimeexecutor: 8fa50b38df6b992c76537993a2b0553d3b088004
   ReactCommon: b49a4b00ca6d181ff74b17c12b2d59ac4add0bde
-  RNKommunicateChat: 04a5b0f5df5955fbd9fe63f528b98d59aa3a4745
+  RNKommunicateChat: 823f79e21babbdc7d8ac73c22f44b36a7a76daec
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
   Yoga: 79dd7410de6f8ad73a77c868d3d368843f0c93e0
