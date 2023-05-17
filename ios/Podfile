@@ -24,6 +24,7 @@ end
 target 'KommunicateDemo' do
   config = use_native_modules!
 
+
   # Flags change depending on the env values.
   flags = get_default_flags()
 
@@ -43,7 +44,7 @@ target 'KommunicateDemo' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
   
-  pod 'KommunicateCore-iOS-SDK', :modular_headers => true
+   pod 'KommunicateCore-iOS-SDK', :modular_headers => true
 
   target 'KommunicateDemoTests' do
     inherit! :complete
